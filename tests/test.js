@@ -1,17 +1,3 @@
-httpsqs-nodejs
-==============
-
-NodeJS wrapper for httpsqs
-
-## Install
-
-```
-npm install httpsqs
-```
-
-## How to use
-
-```js
 //require httpsqs module
 var httpsqs = require('httpsqs');
 //create httpsqs queue instance, queue name needed!
@@ -43,5 +29,4 @@ queue.reset(function(result) {
 //set queue length
 queue.maxQueue(1000, function(result) {
 	console.log(result);
-}); 
-```
+});

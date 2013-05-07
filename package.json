@@ -1,0 +1,27 @@
+{
+  "name": "httpsqs",
+  "description": "NodeJS wrapper for httpsqs",
+  "keywords": [
+    "httpsqs",
+    "queue"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chekun/httpsqs-nodejs"
+  },
+  "author": {
+    "name": "chekun",
+    "email": "234267695@qq.com"
+  },
+  "contributors": [],
+  "main": "./lib/httpsqs",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "underscore": ">=1.4.4",
+    "request": ">=2.21.0",
+    "querystring": ">=0.2.0"
+  }
+}
