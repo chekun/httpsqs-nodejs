@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "underscore": ">=1.4.4",
-    "request": ">=2.21.0",
-    "querystring": ">=0.2.0"
+    "request": ">=2.21.0"
   }
 }
