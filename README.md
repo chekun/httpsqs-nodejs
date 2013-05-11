@@ -15,7 +15,7 @@ npm install httpsqs
 //require httpsqs module
 var httpsqs = require('httpsqs');
 //create httpsqs queue instance, queue name needed!
-var queue = new httpsqs('test');
+var queue = new httpsqs({name: 'test'});
 //push to queue
 queue.push('test', function(result) {
 	console.log(result);
